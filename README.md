@@ -10,9 +10,9 @@ Currency defaults to **Philippine Peso (₱)** and can be changed in Settings.
 
 | File | What it is |
 | --- | --- |
-| [`dist/StorePOS.apk`](dist/StorePOS.apk) | Signed Android app (Android 7.0+, ~214 KB) — open the link, then tap **Download** |
-| [`dist/store-pos.html`](dist/store-pos.html) | The whole app in one ~512 KB file (styles, scripts, icon inlined) — just open it |
-| [`dist/store-pos-web.zip`](dist/store-pos-web.zip) | The same app as plain HTML/CSS/JS — host it or open it anywhere |
+| [`dist/StorePOS.apk`](dist/StorePOS.apk) | Signed Android app (Android 7.0+, 214 KB) — open the link, then **Download** (on a phone the same button reads **View raw**) |
+| [`dist/store-pos.html`](dist/store-pos.html) | The whole app in one 512 KB file (styles, scripts, icon inlined) — download it and open it |
+| [`dist/store-pos-web.zip`](dist/store-pos-web.zip) | The same app as plain HTML/CSS/JS (176 KB) — host it or open it anywhere |
 | `www/` | The HTML app source (edit this, then rebuild) |
 | `android/` | Native WebView wrapper used to produce the APK |
 | `scripts/build-apk.sh` | Rebuilds and signs the APK |
